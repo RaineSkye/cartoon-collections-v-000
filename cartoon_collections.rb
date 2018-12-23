@@ -20,7 +20,7 @@ def long_planeteer_calls(array)
   end
 end
 
-long_planeteer_calls(array){|i| i > 4}
+long_planeteer_calls(array){|i| if i > 4}
 
 def find_the_cheese (array)
   # the array below is here to help
